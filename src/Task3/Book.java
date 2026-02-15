@@ -1,0 +1,24 @@
+package Task3;
+
+public class Book {
+    String bookName;
+    String author;
+
+    public Book(String bookName, String author) {
+        this.bookName = bookName;
+        this.author = author;
+    }
+
+    public Book(String bookName)  {
+        this.bookName = bookName;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+}
+
